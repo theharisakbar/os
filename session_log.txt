@@ -1,0 +1,57 @@
+Script started on 2026-10-14 10:11:00+05:00 [TERM="dumb" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+mharis@ubuntu:~$ pwd
+/home/mharis
+mharis@ubuntu:~$ cd /etc
+mharis@ubuntu:/etc$ pwd
+/etc
+mharis@ubuntu:/etc$ cd ..
+mharis@ubuntu:/$ pwd
+/
+mharis@ubuntu:/$ cd /
+mharis@ubuntu:/$ pwd
+/
+mharis@ubuntu:/$ ls
+bin   boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+mharis@ubuntu:/$ ls -l
+total 0
+lrwxrwxrwx   1 root root    7 Oct 14 09:00 bin -> usr/bin
+drwxr-xr-x   4 root root  4096 Oct 14 09:00 boot
+drwxr-xr-x  18 root root  3940 Oct 14 09:00 dev
+drwxr-xr-x 112 root root  4096 Oct 14 09:00 etc
+drwxr-xr-x   3 root root  4096 Oct 14 09:00 home
+lrwxrwxrwx   1 root root    7 Oct 14 09:00 lib -> usr/lib
+lrwxrwxrwx   1 root root    9 Oct 14 09:00 lib64 -> usr/lib64
+drwxr-xr-x   2 root root  4096 Oct 14 09:00 media
+drwxr-xr-x   2 root root  4096 Oct 14 09:00 mnt
+drwxr-xr-x   2 root root  4096 Oct 14 09:00 opt
+dr-xr-xr-x   0 root root     0 Oct 14 09:00 proc
+drwx------   4 root root  4096 Oct 14 09:00 root
+drwxr-xr-x  32 root root   960 Oct 14 10:00 run
+lrwxrwxrwx   1 root root    8 Oct 14 09:00 sbin -> usr/sbin
+drwxr-xr-x   2 root root  4096 Oct 14 09:00 srv
+dr-xr-xr-x   0 root root     0 Oct 14 09:00 sys
+drwxrwxrwt   9 root root   180 Oct 14 10:00 tmp
+drwxr-xr-x  12 root root  4096 Oct 14 09:00 usr
+drwxr-xr-x  13 root root  4096 Oct 14 09:00 var
+mharis@ubuntu:/$ ls /etc
+ImageMagick-6  NetworkManager  X11  adduser.conf  alternatives  apt  bash.bashrc  ca-certificates  cron.d  cron.daily  dbus-1  default  dpkg  environment  fstab  hostname  hosts  init.d  issue  kernel  ld.so.conf  logrotate.d  machine-id  os-release  passwd  profile  resolv.conf  security  ssh  systemd  timezone  ubuntu-advantage  update-motd.d
+mharis@ubuntu:/$ ls /bin /sbin
+/bin:
+'['  bash  cat  chgrp  chmod  chown  cp  dash  date  dd  df  dmesg  echo  false
+grep  ln  login  ls  mkdir  mknod  more  mount  mv  ping  ps  pwd  rm
+rmdir  sed  sh  sleep  stty  su  sync  touch  true  umount  uname
+/sbin:
+adduser  agetty  blkid  fsck  getty  halt  ldconfig  mkfs  mkswap
+reboot  runlevel  shutdown  sulogin  swapoff  swapon  sysctl
+mharis@ubuntu:/$ ls ~
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+mharis@ubuntu:/$ ls -a ~
+.  ..  .bash_history  .bash_logout  .bashrc  .cache  .config  .local  .profile  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+mharis@ubuntu:/$ ls -lh /boot
+total 12M
+-rw-r--r-- 1 root root 280K Oct 14 09:00 config-6.8.0-xx-generic
+-rw-r--r-- 1 root root  12M Oct 14 09:00 initrd.img-6.8.0-xx-generic
+-rw-r--r-- 1 root root 8.9M Oct 14 09:00 vmlinuz-6.8.0-xx-generic
+mharis@ubuntu:/$ exit
+
+Script done on 2026-10-14 10:12:00+05:00
